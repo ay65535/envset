@@ -7,13 +7,13 @@
 
 int main(void)
 {
-    system("/bin/launchctl setenv XMODIFIERS @im=kinput2");
+    //system("/bin/launchctl setenv XMODIFIERS @im=kinput2");
     system("/bin/launchctl setenv LANG ja_JP.UTF-8");
     system("/bin/launchctl setenv PATH /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin");
     system("/bin/launchctl setenv XDG_DATA_HOME ~/.local/share");
     system("/bin/launchctl setenv XDG_CONFIG_HOME ~/.config");
-    system("/bin/launchctl setenv XDG_DATA_DIRS /usr/local/share/:/usr/share/");
-    system("/bin/launchctl setenv XDG_CONFIG_DIRS /etc/xdg");
+    //system("/bin/launchctl setenv XDG_DATA_DIRS /usr/local/share/:/usr/share/");
+    //system("/bin/launchctl setenv XDG_CONFIG_DIRS /etc/xdg");
     system("/bin/launchctl setenv XDG_CACHE_HOME ~/.cache");
     return 0;
 }

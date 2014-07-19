@@ -11,7 +11,7 @@ $dictNode->addChild( 'key', 'ProgramArguments' );
 
 $keyNode = $dictNode->addChild( 'array' );
 $homedir = getenv('HOME');
-$keyNode->addChild( 'string', $homedir . '/bin/envset' );
+$keyNode->addChild( 'string', $homedir . '/.local/bin/envset' );
 
 $dictNode->addChild( 'key', 'RunAtLoad' );
 $dictNode->addChild( 'true' );
