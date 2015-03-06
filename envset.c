@@ -15,5 +15,7 @@ int main(void)
     //system("/bin/launchctl setenv XDG_DATA_DIRS /usr/local/share/:/usr/share/");
     //system("/bin/launchctl setenv XDG_CONFIG_DIRS /etc/xdg");
     system("/bin/launchctl setenv XDG_CACHE_HOME ~/.cache");
+    system("/bin/launchctl setenv JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home");
+    system("/bin/launchctl setenv STUDIO_JDK /System/Library/Java/JavaVirtualMachines/1.6.0.jdk");
     return 0;
 }
