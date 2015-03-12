@@ -23,4 +23,4 @@ make && make install
 Notes
 -----
 
-By default, envset are installed into ~/.local/bin
+By default, envset are installed into ~/local/bin
