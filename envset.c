@@ -23,5 +23,6 @@ int main(void)
     // for AppCode
     // system("/bin/launchctl setenv JAVA_HOME /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home");
     system("/bin/launchctl setenv STUDIO_JDK /System/Library/Java/JavaVirtualMachines/1.6.0.jdk");
+    system("/bin/launchctl setenv RUBYMINE_JDK /System/Library/Java/JavaVirtualMachines/1.6.0.jdk");
     return 0;
 }
