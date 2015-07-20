@@ -8,7 +8,7 @@ org.miko.osx.envset.plist: create_plist.php
 
 install:
 	cp -ivp envset ~/local/bin
-	cp -iv org.miko.osx.envset.plist ~/Library/LaunchAgents
+	cp -iv org.miko.osx.envset.plist ~/Library/LaunchAgents/org.miko.osx.envset.plist
 
 clean:
 	rm envset org.miko.osx.envset.plist 2>/dev/null || true
