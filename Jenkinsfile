@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'php:alpine'
+    }
+
+  }
   stages {
     stage('check file') {
       steps {
